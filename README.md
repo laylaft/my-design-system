@@ -1,6 +1,22 @@
-# My Design System
+# 🎨 My Design System
 
-A modern design system built with React, Storybook, and Tailwind CSS.
+A modern, production-ready design system built with React, Storybook, and Tailwind CSS. This design system provides a comprehensive set of components, design tokens, and documentation for building consistent user interfaces.
+
+![Storybook](https://img.shields.io/badge/Storybook-9.1.13-FF4785?style=flat-square&logo=storybook)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=flat-square&logo=tailwind-css)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite)
+
+## 🌟 Features
+
+- **🎨 Design Tokens**: Comprehensive design system with colors, typography, spacing, and more
+- **🧩 Components**: Pre-built React components (Button, Header, Page) with multiple variants
+- **📚 Documentation**: Interactive Storybook documentation with live examples
+- **♿ Accessibility**: Built-in accessibility testing and best practices
+- **🧪 Testing**: Comprehensive testing setup with Vitest and Playwright
+- **🎯 TypeScript Ready**: Full TypeScript support for better development experience
+- **📦 NPM Package**: Ready to be published as an NPM package
+- **🚀 Production Ready**: Optimized build system with Vite
 
 ## 🚀 Quick Start
 
