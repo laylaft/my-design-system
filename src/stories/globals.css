@@ -9,6 +9,55 @@
     --color-copy: #444444;
     --color-accent: #00C89B;
 
+    /* Color Scale System */
+    /* Blue (Primary/Title) - Main headings, primary text, and primary actions */
+    --blue-50: #e6e8f5;
+    --blue-100: #c2c7e6;
+    --blue-200: #9ba3d6;
+    --blue-300: #747fc6;
+    --blue-400: #5663ba;
+    --blue-500: #3947ae;
+    --blue-600: #2d3ca0;
+    --blue-700: #1e2e8d;
+    --blue-800: #0f207a;
+    --blue-900: #001666;
+
+    /* Teal (Accent) - Links, buttons, and interactive elements */
+    --teal-50: #e6faf5;
+    --teal-100: #c2f3e6;
+    --teal-200: #99ebd5;
+    --teal-300: #6fe3c4;
+    --teal-400: #4fddb7;
+    --teal-500: #2fd6aa;
+    --teal-600: #00c89b;
+    --teal-700: #00b188;
+    --teal-800: #009a75;
+    --teal-900: #007d5f;
+
+    /* Gray (Copy/Neutral) - Body text, secondary content, backgrounds, and dividers */
+    --gray-50: #f8f9fa;
+    --gray-100: #f1f3f4;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+
+    /* Red (Destructive) - Error states, warnings, and destructive actions */
+    --red-50: #fef2f2;
+    --red-100: #fee2e2;
+    --red-200: #fecaca;
+    --red-300: #fca5a5;
+    --red-400: #f87171;
+    --red-500: #ef4444;
+    --red-600: #dc3545;
+    --red-700: #c82333;
+    --red-800: #b21e2c;
+    --red-900: #991825;
+
     /* Spacing Scale (4px base) */
     --spacing-0: 0;
     --spacing-1: 0.25rem;
@@ -87,17 +136,17 @@
     --info: #17a2b8;
     --info-foreground: #ffffff;
 
-    /* Neutral Palette */
-    --neutral-50: #f8f9fa;
-    --neutral-100: #f1f3f4;
-    --neutral-200: #e9ecef;
-    --neutral-300: #dee2e6;
-    --neutral-400: #ced4da;
-    --neutral-500: #adb5bd;
-    --neutral-600: #6c757d;
-    --neutral-700: #495057;
-    --neutral-800: #343a40;
-    --neutral-900: #212529;
+    /* Neutral Palette (alias for gray scale) */
+    --neutral-50: var(--gray-50);
+    --neutral-100: var(--gray-100);
+    --neutral-200: var(--gray-200);
+    --neutral-300: var(--gray-300);
+    --neutral-400: var(--gray-400);
+    --neutral-500: var(--gray-500);
+    --neutral-600: var(--gray-600);
+    --neutral-700: var(--gray-700);
+    --neutral-800: var(--gray-800);
+    --neutral-900: var(--gray-900);
 
     /* Z-Index Scale */
     --z-index-base: 0;
